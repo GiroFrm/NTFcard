@@ -104,8 +104,8 @@
 
   h2{
     color: var(--White);
-    padding-top:0.8rem;
-    padding-bottom: 0.4rem;
+    padding-top:1rem;
+    padding-bottom: 0.6rem;
   }
 
   .descr{
