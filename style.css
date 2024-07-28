@@ -49,9 +49,9 @@
     --Soft-blue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
 
-    --Very-dark-blue: hsl(217, 54%, 11%);
-    --Very-dark-blue: hsl(216, 50%, 16%);
-    --Very-dark-blue: hsl(215, 32%, 27%);
+    --Very-dark-blue1: hsl(217, 54%, 11%);
+    --Very-dark-blue2: hsl(216, 50%, 16%);
+    --Very-dark-blue3: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 
     --font-small: 1.125rem;
@@ -67,11 +67,63 @@
     font-weight: 300;
     font-style: normal;
   }
-
+/* 
+  utility  */
   .fw-400{
     font-weight: var(--fw-black);
   }
 
   .fw-600{
     font-weight: var(--fw-bold);
+  }
+
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+
+  .justify-content{
+    justify-content: space-between;
+  }
+
+
+  body{
+
+    background-color: var(--Very-dark-blue1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    color: var(--Soft-blue)
+  }
+
+
+  .card{
+    max-width: 375px;
+    border-radius: 8px;
+    background-color: var(--Very-dark-blue2);
+    padding: 1.5rem;
+  }
+
+  .card-img{
+    border-radius: 8px;
+  }
+
+  h2{
+    color: var(--White);
+    padding-top:0.8rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .descr{
+    margin-bottom: 1.2rem;
+  }
+
+  .values-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid var(--Very-dark-blue3);
+    padding-bottom: 1.5rem;
   }
