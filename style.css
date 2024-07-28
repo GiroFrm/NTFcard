@@ -96,6 +96,7 @@
     border-radius: 8px;
     background-color: var(--Very-dark-blue2);
     padding: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .card-img{
